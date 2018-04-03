@@ -20,7 +20,7 @@
         app:lottie_loop="true" />
 
     <wangfeixixi.utilcirclerprogress.CircleProgress
-        android:id="@+id/pb_main_demo7"
+        android:id="@+id/cp"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="400dp"
         android:layout_height="400dp"

@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         animationView = (LottieAnimationView)
                 findViewById(R.id.animation_view);
 
-        circleProgress = findViewById(R.id.pb_main_demo7);
+        circleProgress = findViewById(R.id.cp);
 
 
         circleProgress.setOnProcessListener(new CircleProgress.OnProccessListener() {
