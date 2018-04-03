@@ -19,7 +19,7 @@
         android:visibility="gone"
         app:lottie_loop="true" />
 
-    <wangfeixixi.utilcirclerprogress.CircleProgress
+    <wangfeixixi.view.CircleProgress
         android:id="@+id/cp"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="400dp"

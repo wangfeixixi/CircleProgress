@@ -1,4 +1,4 @@
-package wangfeixixi.utilcirclerprogress;
+package wangfeixixi.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;

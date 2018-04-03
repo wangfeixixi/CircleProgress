@@ -1,4 +1,4 @@
-package wangfeixixi.utilcirclerprogress;
+package wangfeixixi.view;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

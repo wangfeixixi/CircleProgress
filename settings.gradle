@@ -1,1 +1,1 @@
-include ':app', ':utilcirclerprogress'
+include ':app', ':CirProgressLib'
