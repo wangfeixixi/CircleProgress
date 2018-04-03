@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:lottie_loop="true" />
+
+    <wangfeixixi.utilcirclerprogress.CircleProgress
+        android:id="@+id/pb_main_demo7"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        app:bga_pb_isCapRounded="false"
+        app:bga_pb_isHiddenText="true"
+        app:bga_pb_mode="circle"
+        app:bga_pb_radius="24dp"
+        app:bga_pb_reachedColor="#FFC73B"
+        app:bga_pb_reachedHeight="6dp"
+        app:bga_pb_textColor="#FFC73B"
+        app:bga_pb_textSize="14sp"
+        app:bga_pb_unReachedColor="#ECF0F1"
+        app:bga_pb_unReachedHeight="3dp" />
+</RelativeLayout>
